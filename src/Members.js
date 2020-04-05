@@ -45,7 +45,7 @@ const MemberList = () => {
     }
   ];
 
-  let renderData = [];
+  var renderData = [];
 
   for(var i = 0; i < members.length; i++) {
     let member = members[i];
