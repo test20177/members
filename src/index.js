@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Members from './Members';
 import * as serviceWorker from './serviceWorker';
 
+
+
+/* todo zrob kontener na kilka wizytowek */
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Members />
   </React.StrictMode>,
   document.getElementById('root')
 );
